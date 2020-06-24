@@ -15,7 +15,7 @@ hr {
 }
 
 hr.light {
-    border-color: white;
+    border-color: #ffffff00;
 }
 
 a {
@@ -71,7 +71,7 @@ aside {
 
 .navbar-default {
     background-color: white;
-    border-color: rgba($theme-dark, .5);
+    border-color: transparent;
     @include sans-serif-font;
     @include transition-all;
     .navbar-header .navbar-brand {
