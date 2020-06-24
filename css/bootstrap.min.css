@@ -1344,7 +1344,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
-  background-color: #f5f4f3;
+  background-color: #f4f2eb;
 }
 
 button, input, select, textarea {
@@ -1380,6 +1380,15 @@ img {
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
   display: block;
   max-width: 100%;
+  height: auto
+}
+.img-resonsive2 {
+  max-width: 100%;
+  height: auto
+}
+.img-resonsive3 {
+  display: block;
+  max-width: 50%;
   height: auto
 }
 
