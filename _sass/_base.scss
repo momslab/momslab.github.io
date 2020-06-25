@@ -216,7 +216,7 @@ header {
     max-width: 400px;
     margin: 50px auto 0;
     @media (min-width: 992px) {
-        margin: 20px auto 0;
+        margin: 50px auto 0;
     }
     p {
         margin-bottom: 0;
@@ -229,7 +229,7 @@ header {
     max-width: 650px;
     margin: 0 auto;
     .portfolio-box-caption {
-        color: white;
+        color: #5e6e45;
         opacity: 0;
         display: block;
         background: rgba( $theme-primary, .9 );
@@ -297,7 +297,7 @@ header {
 
 // Button Styles
 .btn-default {
-    @include button-variant($theme-dark, white, white);
+    @include button-variant(white,#5e6e45, white);
 }
 
 .btn-primary {
