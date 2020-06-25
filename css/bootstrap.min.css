@@ -1332,6 +1332,7 @@ td, th {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box
+
 }
 
 html {
@@ -1341,10 +1342,12 @@ html {
 
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 1.42857143;
   color: #333;
   background-color: #f4f2eb;
+  vertical-align: middle;
+  text-align: center;
 }
 
 button, input, select, textarea {
@@ -1354,7 +1357,7 @@ button, input, select, textarea {
 }
 
 a {
-  color: #333;
+  color: white;
   text-decoration: none
 }
 
@@ -3382,7 +3385,7 @@ select[multiple].form-group-lg .form-control, textarea.form-group-lg .form-contr
   background-image: none;
   border: 1px solid transparent;
   border-radius: 4px
-  
+  margin-top: 20px
 }
 
 .btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
@@ -3413,7 +3416,7 @@ select[multiple].form-group-lg .form-control, textarea.form-group-lg .form-contr
 }
 
 .btn-default {
-  color: #333;
+  color: #white;
   background-color: #fff;
   border-color: #ccc
 }

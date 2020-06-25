@@ -20,7 +20,7 @@ hr.light {
 
 a {
     @include transition-all;
-    color: $theme-primary;
+    color: #white;
     &:hover,
     &:focus {
         color: darken($theme-primary, 10%);
@@ -253,13 +253,14 @@ header {
             .project-category {
                 text-transform: uppercase;
                 font-weight: 600;
-                font-size: 14px;
+                font-size: 20px;
             }
             .project-name {
                 font-size: 18px;
             }
         }
     }
+
     &:hover {
         .portfolio-box-caption {
             opacity: 1;
@@ -269,10 +270,10 @@ header {
         .portfolio-box-caption {
             .portfolio-box-caption-content {
                 .project-category {
-                    font-size: 16px;
+                    font-size: 26px;
                 }
                 .project-name {
-                    font-size: 22px;
+                    font-size: 30px;
                 }
             }
         }
@@ -297,7 +298,7 @@ header {
 
 // Button Styles
 .btn-default {
-    @include button-variant(white,#5e6e45, white);
+    @include button-variant(#white,#5e6e45, white);
 }
 
 .btn-primary {
@@ -320,6 +321,7 @@ header {
 #contact .fa {
     color: $theme-dark;
     font-size: 4em;
+    text-align: right;
 }
 
 // Extras
