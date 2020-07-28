@@ -1,7 +1,9 @@
 # Site settings
 title:
-email:
-description: > # this means to ignore newlines until "baseurl:"
+email: platemama@gmail.com
+description: 신선하고 편리한 음식을 주제로 건강한 식문화를 선도합니다. 천연발효종을 사용하여 소화 잘 되는 빵 일체의 화학 보존제를 첨가하지 않고 유기농 설탕을 사용한 건강한 빵을 만듭니다.
+
+
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
